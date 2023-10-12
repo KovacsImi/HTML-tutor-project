@@ -1,41 +1,41 @@
-<!DOCTYPE html> <!-- Pragmat -->
-<!--Mit jelent a hyper text?
-    A különböző szöveges tartalmak egymásra mutatnak, vagyis vannak benne linkek-->
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"> <!--kulcs = érték-->
-        <title>Ez jelenik meg a fülön!</title>
-        <link rel="stylesheet" href="page.css"/>
-        <script src="page.js"></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Progmasters form page</title>
+</head>
+<body>
 
-    <body>
-        <h1> Itt található a cím!</h1> <!--header h1-től h6-ig-->
-        <h2> Ez pedig az alcím!</h2>
-        <p style="color: crimson">Szöveg</p>
-        <a href="https://www.telex.hu">Telex link</a>
+<h1>Hello Progmasters!</h1>
+<h2>It is a simple form page</h2>
+
+<div>
+    <form>
+        <label for="name-id">Name:</label><br>
+        <input id="name-id">
         <br>
 
-        <form>
-            <input id="input-id-1">
-            <button id="input-button" type="button">Beviteli gomb</button>
-        </form>
+        <label for="password-id">Password</label><br>
+        <input id="password-id">
+        <br>
 
-        <div id="message-div">Ide kerül, majd a kiolvasott szöveg!</div>
+        <label for="birth_year-id">Birth year:</label><br>
+        <input id="birth_year-id">
+        <br>
 
-        <a href="https://www.origo.hu">
-            <img src="https://httpstatusdogs.com/img/200.jpg" alt="Alternatív szöveg: aranyos kutyuka!"/>
-        </a>
+        <label for="email-id">Email</label><br>
+        <input id="email-id">
+        <br>
 
-        <a href="https://www.index.hu" target="_blank">
-            <img src="https://httpstatusdogs.com/img/201.jpg"/>
-        </a>
+        <label for="get-up">When do you get up usually</label><br>
+        <select id="get-up" name="cars">
+            <option value="7">7 am</option>
+            <option value="8">8 am</option>
+            <option value="9 ">9 am</option>
+            <option value="10">10 am</option>
+        </select>
 
-        <a href="https://www.politico.com" target="_self">
-            <img src="https://httpstatusdogs.com/img/203.jpg"/>
-        </a>
-
-
-
-    </body>
+    </form>
+</div>
+</body>
 </html>
