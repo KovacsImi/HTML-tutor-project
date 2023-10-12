@@ -16,23 +16,39 @@
         <br>
 
         <label for="password-id">Password</label><br>
-        <input id="password-id">
+        <input id="password-id" type="password">
         <br>
 
         <label for="birth_year-id">Birth year:</label><br>
-        <input id="birth_year-id">
+        <input id="birth_year-id" type="number">
         <br>
 
         <label for="email-id">Email</label><br>
-        <input id="email-id">
+        <input id="email-id" type="email">
         <br>
 
-        <label for="get-up">When do you get up usually</label><br>
-        <select id="get-up" name="cars">
-            <option value="7">7 am</option>
-            <option value="8">8 am</option>
-            <option value="9 ">9 am</option>
-            <option value="10">10 am</option>
+        <label for="get-up">Email</label><br>
+        <input id="get-up" type="time">
+        <br>
+
+        <p>Gender</p>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="Female">Female</label>
+        <input type="radio" id="Other" name="gender" value="Other">
+        <label for="Other">Other</label>
+
+        <p>Language</p>
+        <input type="checkbox" id="english" name="language" value="Male">
+        <label for="Male">English</label>
+        <input type="checkbox" id="german" name="language" value="German">
+        <label for="Female">German</label>
+
+        <p>What is your favourite topic so far?</p>
+        <select>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
         </select>
 
     </form>
